@@ -30,18 +30,6 @@ All benchmarks were executed using:
 go test -bench=. -benchmem
 ```
 
-**Test Machine**
-
-| Field        | Details              |
-| ------------ | -------------------- |
-| Model        | Apple MacBook Air M2 |
-| Architecture | Apple Silicon ARM64  |
-| Go Version   | 1.24.5               |
-
-Each section below targets a specific subsystem: write performance, recovery speed, MemTable efficiency, SSTable reads, sparse index effectiveness, Bloom filter optimization, and memory allocation behavior.
-
----
-
 ## Write Path
 
 The write benchmark measures the full LSM write path from client call to acknowledgment.
