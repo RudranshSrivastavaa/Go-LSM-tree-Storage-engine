@@ -351,12 +351,3 @@ The Bloom filter is the single largest optimization in the storage engine. A neg
 | WAL Recovery    | Scales linearly with WAL size |
 | SSTable Flush   | 100K records in 1.28 s (async)|
 
-These results validate the fundamental design decisions of a log-structured merge-tree:
-
-- **WAL** provides durability without slowing the write path
-- **SkipLists** make MemTable operations nearly free
-- **SSTables** offer compact, sorted, persistent storage
-- **Sparse Indexes** make reads efficient without full indexing overhead
-- **Bloom Filters** eliminate the cost of the most common negative case
-
-The same combination underpins production storage engines including RocksDB, LevelDB, Pebble, and BadgerDB.
