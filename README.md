@@ -57,11 +57,11 @@ ACK
 ```
 
 <p align="center">
-  <img src="docs/write-path-architecture" width="1000"/>
+  <img src="docs/write-path-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/write-path-benchmark" width="1000"/>
+  <img src="docs/write-path-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value       |
@@ -87,7 +87,7 @@ GET → SkipList Search
 ```
 
 <p align="center">
-  <img src="docs/skiplist-benchmark" width="1000"/>
+  <img src="docs/skiplist-benchmark.png" width="1000"/>
 </p>
 
 | Operation | Latency     |
@@ -114,11 +114,11 @@ Rebuild MemTable
 ```
 
 <p align="center">
-  <img src="docs/recovery-architecture" width="1000"/>
+  <img src="docs/recovery-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/recovery-benchmark" width="1000"/>
+  <img src="docs/recovery-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value             |
@@ -150,11 +150,11 @@ Background Flush
 ```
 
 <p align="center">
-  <img src="docs/write-path-architecture" width="1000"/>
+  <img src="docs/write-path-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/memtable-benchmark" width="1000"/>
+  <img src="docs/memtable-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value        |
@@ -188,11 +188,11 @@ SSTable File
 ```
 
 <p align="center">
-  <img src="docs/write-path-architecture" width="1000"/>
+  <img src="docs/write-path-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/sstable-flush-benchmark" width="1000"/>
+  <img src="docs/sstable-flush-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value   |
@@ -223,11 +223,11 @@ Target Key
 ```
 
 <p align="center">
-  <img src="docs/read-path-architecture" width="1000"/>
+  <img src="docs/read-path-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/linear-read-benchmark" width="1000"/>
+  <img src="docs/linear-read-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value         |
@@ -255,11 +255,11 @@ Target Key
 ```
 
 <p align="center">
-  <img src="docs/read-path-architecture" width="1000"/>
+  <img src="docs/read-path-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/sparse-index-benchmark" width="1000"/>
+  <img src="docs/sparse-index-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value        |
@@ -300,7 +300,7 @@ Not Found
 ```
 
 <p align="center">
-  <img src="docs/negative-lookup-benchmark" width="1000"/>
+  <img src="docs/negative-lookup-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value        |
@@ -322,11 +322,11 @@ Definitely Not Present → Return
 ```
 
 <p align="center">
-  <img src="docs/read-path-architecture" width="1000"/>
+  <img src="docs/read-path-architecture.png" width="1000"/>
 </p>
 
 <p align="center">
-  <img src="docs/bloom-filter-benchmark" width="1000"/>
+  <img src="docs/bloom-filter-benchmark.png" width="1000"/>
 </p>
 
 | Metric      | Value       |
